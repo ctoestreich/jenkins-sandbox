@@ -9,11 +9,6 @@ target(main: "Add some style to the gmetrics report") {
             include name: '*.png'
         }
     }
-
-    //def factory = TransformerFactory.newInstance()
-    //def transformer = factory.newTransformer(new StreamSource(new StringReader(xslt())))
-    //transformer.transform(new StreamSource(new StringReader(input)), new StreamResult(System.out))
-
 }
 
 setDefaultTarget(main)
