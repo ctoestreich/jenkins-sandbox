@@ -90,3 +90,31 @@ gmetrics.reportType = 'org.gmetrics.report.XmlReportWriter'
 gmetrics.outputFile = 'target/gmetrics.xml'
 gmetrics.processTestUnit = false
 gmetrics.processTestIntegration = false
+
+codenarc.reportType='xml'
+codenarc.reportName='target/codenarc.xml'
+
+//codenarc.reports = {
+    // Each report definition is of the form:
+    //    REPORT-NAME(REPORT-TYPE) {
+    //        PROPERTY-NAME = PROPERTY-VALUE
+    //        PROPERTY-NAME = PROPERTY-VALUE
+    //    }
+
+//    MyXmlReport('xml') {                    // The report name "MyXmlReport" is user-defined; Report type is 'xml'
+//        outputFile = 'target/codenarc.xml'  // Set the 'outputFile' property of the (XML) Report
+//        title = 'CodeNarc Report'             // Set the 'title' property of the (XML) Report
+//    }
+//    MyHtmlReport('html') {                  // Report type is 'html'
+//        outputFile = 'target/codenarc.html'
+//        title = 'CodeNarc Report'
+//    }
+//}
+
+coverage {
+	nopost = true
+	xml = true
+    exclusions = [
+	              '**/*TagLib*/**',
+	              "**/*Tests*"]
+}
