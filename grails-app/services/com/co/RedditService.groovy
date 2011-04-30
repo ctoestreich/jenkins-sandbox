@@ -1,5 +1,7 @@
 package com.co
 
+import grails.converters.JSON
+
 class RedditService {
 
     static transactional = true
@@ -12,4 +14,5 @@ class RedditService {
 
         cats
     }
+
 }

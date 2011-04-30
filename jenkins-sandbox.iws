@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7df1c8d-5c59-437c-b8cc-6031122dfa1c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iws" afterPath="$PROJECT_DIR$/jenkins-sandbox.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy" afterPath="$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy" />
     </list>
     <ignored path="jenkins-sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedditController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RedditController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="-1.0434783">
+            <state line="10" column="20" selection-start="168" selection-end="168" vertical-scroll-proportion="0.22857143">
               <folding />
             </state>
           </provider>
@@ -85,16 +87,25 @@
       <file leaf-file-name="RedditControllerTests.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="-7.826087">
+            <state line="17" column="24" selection-start="382" selection-end="382" vertical-scroll-proportion="-8.869565">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedditService.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RedditServiceTests.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedditService.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.32846716">
+            <state line="14" column="12" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,10 +128,10 @@
         <option value="$PROJECT_DIR$/src/groovy/com/cto/Cat.groovy" />
         <option value="$PROJECT_DIR$/src/groovy/com/co/Cat.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/com/co/RedditControllerService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy" />
         <option value="$PROJECT_DIR$/test/unit/co/RedditControllerTests.groovy" />
         <option value="$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy" />
       </list>
     </option>
   </component>
@@ -556,13 +567,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="-1.0434783">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/groovy/com/co/Cat.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
@@ -570,16 +574,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="-7.826087">
+        <state line="17" column="24" selection-start="382" selection-end="382" vertical-scroll-proportion="-8.869565">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.32846716">
+        <state line="14" column="12" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="168" selection-end="168" vertical-scroll-proportion="0.22857143">
           <folding />
         </state>
       </provider>

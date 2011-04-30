@@ -1,10 +1,12 @@
 package com.co
 
+import grails.converters.JSON
+
 class RedditController {
 
     def redditService
 
     def index = {
-        [cats: redditService.breedCats()]
+        render redditService.breedCats() as JSON
     }
 }

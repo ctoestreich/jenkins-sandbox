@@ -14,6 +14,8 @@ class RedditControllerTests extends ControllerUnitTestCase {
     void testIndex() {
         controller.index()
         String response = controller.response.contentAsString
+        println response
+        println response
         assertTrue response.contains("Cat")
     }
 }
