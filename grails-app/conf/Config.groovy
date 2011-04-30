@@ -85,3 +85,8 @@ log4j = {
 
     warn   'org.mortbay.log'
 }
+
+gmetrics.reportType = 'org.gmetrics.report.XmlReportWriter'
+gmetrics.outputFile = 'target/gmetrics.xml'
+gmetrics.processTestUnit = false
+gmetrics.processTestIntegration = false

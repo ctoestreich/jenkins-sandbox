@@ -41,7 +41,6 @@
       <library name="Grails User Library">
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
-          <root url="jar://$USER_HOME$/.ivy2/cache/com.cenqua.clover/clover/jars/clover-3.0.2.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.7.0.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ant/ant/jars/ant-1.7.0.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/asm/asm-tree/jars/asm-tree-3.0.jar!/" />
