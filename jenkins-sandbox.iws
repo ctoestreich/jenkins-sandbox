@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7df1c8d-5c59-437c-b8cc-6031122dfa1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iws" afterPath="$PROJECT_DIR$/jenkins-sandbox.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy" afterPath="$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy" />
     </list>
     <ignored path="jenkins-sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -548,7 +545,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting some simple tests added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -562,6 +559,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Adding some code" />
+    <MESSAGE value="Getting some simple tests added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
