@@ -6,9 +6,10 @@ class RedditService {
 
     def breedCats() {
         def cats = []
-        10.times {
+        (1..10).each {
             cats.add(new Cat(canHasCheeseburger: 10 % it == 0))
         }
+
         cats
     }
 }
