@@ -110,11 +110,3 @@ codenarc.reportName='target/codenarc.xml'
 //        title = 'CodeNarc Report'
 //    }
 //}
-
-coverage {
-	nopost = true
-	xml = true
-    exclusions = [
-	              '**/*TagLib*/**',
-	              "**/*Tests*"]
-}

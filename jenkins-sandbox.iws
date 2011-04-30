@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7df1c8d-5c59-437c-b8cc-6031122dfa1c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iws" afterPath="$PROJECT_DIR$/jenkins-sandbox.iws" />
     </list>
@@ -73,10 +74,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="0" selection-start="4082" selection-end="4082" vertical-scroll-proportion="4.159223">
+            <state line="111" column="3" selection-start="4567" selection-end="4567" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="131" selection-start="546" selection-end="546" vertical-scroll-proportion="0.27272728">
               <folding />
             </state>
           </provider>
@@ -103,7 +113,7 @@
       <file leaf-file-name="GmetricsStylize.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/GmetricsStylize.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="138" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+            <state line="14" column="39" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -170,8 +180,10 @@
         <option value="$PROJECT_DIR$/gmetrics/default.css" />
         <option value="$PROJECT_DIR$/gmetrics/default.xslt" />
         <option value="$PROJECT_DIR$/target/gmetrics.xml" />
+        <option value="$PROJECT_DIR$/scripts/CompileTestReport.groovy" />
         <option value="$PROJECT_DIR$/scripts/GmetricsStylize.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
       </list>
     </option>
   </component>
@@ -560,7 +572,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding script gmetrics-stylize for formatting the report." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing location for the codenarc xml file" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -576,6 +588,7 @@
     <MESSAGE value="Adding some code" />
     <MESSAGE value="Getting some simple tests added" />
     <MESSAGE value="Adding script gmetrics-stylize for formatting the report." />
+    <MESSAGE value="Changing location for the codenarc xml file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -658,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/GmetricsStylize.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="138" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.grails/1.3.6/projects/jenkins-sandbox/plugins/codenarc-0.8.1/scripts/Codenarc.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="41" selection-start="953" selection-end="963" vertical-scroll-proportion="0.0">
@@ -672,9 +678,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/GmetricsStylize.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="39" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="4082" selection-end="4082" vertical-scroll-proportion="4.159223">
+        <state line="111" column="3" selection-start="4567" selection-end="4567" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="131" selection-start="546" selection-end="546" vertical-scroll-proportion="0.27272728">
           <folding />
         </state>
       </provider>
