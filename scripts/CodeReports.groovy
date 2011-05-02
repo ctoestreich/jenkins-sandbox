@@ -1,6 +1,8 @@
-includeTargets << grailsScript("Init")
-includeTargets << new File("${gmetricsPluginDir}/scripts/Gmetrics.groovy")
+includeTargets << grailsScript('Init')
 includeTargets << new File("${codenarcPluginDir}/scripts/Codenarc.groovy")
+includeTargets << new File("${gmetricsPluginDir}/scripts/Gmetrics.groovy")
+
+configClassname = 'Config'
 
 target(main: "Add some style to the gmetrics report") {
   depends(compile, codenarc, gmetrics)
@@ -9,7 +11,7 @@ target(main: "Add some style to the gmetrics report") {
   stylizeCodenarc()
 }
 
-target(stylizeGmetrics: "Add some style to the gmetrics report") {
+private void stylizeGmetrics() {
   println "add some style to the gmetrics report"
   ant.mkdir(dir: 'target/gmetrics')
   ant.xslt style: "reports/gmetrics.xslt", out: "target/gmetrics/gmetrics.html", in: 'target/gmetrics.xml'
@@ -22,7 +24,8 @@ target(stylizeGmetrics: "Add some style to the gmetrics report") {
   }
 }
 
-target(stylizeCodenarc: "add some style to the codenarc report") {
+
+private void stylizeCodenarc() {
   println "Add some style to the codenarc report"
   ant.mkdir(dir: 'target/codenarc')
   ant.xslt style: "reports/codenarc.xslt", out: "target/codenarc/codenarc.html", in: 'target/codenarc.xml'
