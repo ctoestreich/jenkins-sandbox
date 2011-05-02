@@ -40,11 +40,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-1.3.6" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library">
         <CLASSES>
-          <root url="file://$USER_HOME$/.grails/1.3.6/projects/jenkins-sandbox/plugins/tomcat-1.3.6/lib" />
-          <root url="file://$USER_HOME$/.grails/1.3.6/projects/jenkins-sandbox/plugins/codenarc-0.12/lib" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.7.0.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ant/ant/jars/ant-1.7.0.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/asm/asm-tree/jars/asm-tree-3.0.jar!/" />
@@ -56,6 +55,8 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.groovy/groovy-all/jars/groovy-all-1.6.9.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.gmetrics/GMetrics/jars/GMetrics-0.3.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.codenarc/CodeNarc/jars/CodeNarc-0.13.jar!/" />
+          <root url="file://$USER_HOME$/.grails/1.3.6/projects/jenkins-sandbox/plugins/tomcat-1.3.6/lib" />
+          <root url="file://$USER_HOME$/.grails/1.3.6/projects/jenkins-sandbox/plugins/codenarc-0.12/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -63,7 +64,6 @@
         <jarDirectory url="file://$USER_HOME$/.grails/1.3.6/projects/jenkins-sandbox/plugins/tomcat-1.3.6/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="grails-1.3.6" level="application" />
   </component>
 </module>
 
