@@ -32,7 +32,5 @@ grails.project.dependency.resolution = {
 
 coverage {
 	xml = true
-    exclusions = [
-	              '**/*TagLib*/**',
-	              "**/*Tests*"]
+    exclusions = ["**/*Tests*"]
 }
