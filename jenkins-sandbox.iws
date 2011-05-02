@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CCaseConfig">
+    <option name="checkoutReserved" value="false" />
+    <option name="markExternalChangeAsUpToDate" value="true" />
+    <option name="checkInUseHijack" value="true" />
+    <option name="useUcmModel" value="true" />
+    <option name="synchOutside" value="false" />
+    <option name="isHistoryResticted" value="true" />
+    <option name="useIdenticalSwitch" value="true" />
+    <option name="synchActivitiesOnRefresh" value="true" />
+    <option name="lastScr" value="" />
+    <option name="scrTextFileName" value="" />
+    <option name="historyRevisionsNumber" value="4" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e7df1c8d-5c59-437c-b8cc-6031122dfa1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reports/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codenarc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reports/codenarc.xslt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reports/default.xslt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/CodeReports.groovy" />
+      <change type="DELETED" beforePath="C:\projects\jenkins-sandbox\scripts\GmetricsStylize.groovy" afterPath="" />
+      <change type="MOVED" beforePath="C:\projects\jenkins-sandbox\gmetrics\bg_gradient.gif" afterPath="$PROJECT_DIR$/reports/bg_gradient.gif" />
+      <change type="MOVED" beforePath="C:\projects\jenkins-sandbox\gmetrics\default.css" afterPath="$PROJECT_DIR$/reports/default.css" />
+      <change type="MOVED" beforePath="C:\projects\jenkins-sandbox\gmetrics\default.xslt" afterPath="$PROJECT_DIR$/reports/gmetrics.xslt" />
+      <change type="MOVED" beforePath="C:\projects\jenkins-sandbox\gmetrics\row_bg.png" afterPath="$PROJECT_DIR$/reports/row_bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iml" afterPath="$PROJECT_DIR$/jenkins-sandbox.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.ipr" afterPath="$PROJECT_DIR$/jenkins-sandbox.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iws" afterPath="$PROJECT_DIR$/jenkins-sandbox.iws" />
     </list>
     <ignored path="jenkins-sandbox.iws" />
@@ -68,7 +92,7 @@
       <file leaf-file-name="RedditController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="168" selection-end="168" vertical-scroll-proportion="-5.2173915">
+            <state line="10" column="20" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,7 +101,7 @@
       <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="3" selection-start="4567" selection-end="4567" vertical-scroll-proportion="0.0">
+            <state line="85" column="94" selection-start="3623" selection-end="3623" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,61 +110,43 @@
       <file leaf-file-name="BuildConfig.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="131" selection-start="546" selection-end="546" vertical-scroll-proportion="0.27272728">
+            <state line="34" column="42" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.6014568">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Codenarc.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.grails/1.3.6/projects/jenkins-sandbox/plugins/codenarc-0.8.1/scripts/Codenarc.groovy">
+      <file leaf-file-name="codenarc.xslt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reports/codenarc.xslt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="41" selection-start="953" selection-end="963" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gmetrics.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.grails/1.3.6/projects/jenkins-sandbox/plugins/gmetrics-0.3/scripts/Gmetrics.groovy">
+      <file leaf-file-name="CodeReports.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/CodeReports.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="13" selection-start="2443" selection-end="2443" vertical-scroll-proportion="12.076923">
+            <state line="13" column="78" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GmetricsStylize.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/GmetricsStylize.groovy">
+      <file leaf-file-name="codenarc.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codenarc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmetrics/default.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="111" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.0">
+            <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="default.xslt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gmetrics/default.xslt">
+        <entry file="file://$PROJECT_DIR$/reports/default.xslt">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="34" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringReader.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/java/io/StringReader.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="11" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,8 +188,8 @@
         <option value="$PROJECT_DIR$/target/gmetrics.xml" />
         <option value="$PROJECT_DIR$/scripts/CompileTestReport.groovy" />
         <option value="$PROJECT_DIR$/scripts/GmetricsStylize.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       </list>
     </option>
   </component>
@@ -198,6 +204,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -217,7 +225,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,20 +240,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jenkins-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkins-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkins-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,50 +275,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkins-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkins-sandbox-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkins-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkins-sandbox-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codenarc-0.8.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkins-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkins-sandbox-grailsPlugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codenarc-0.8.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Favorites" />
       <pane id="PackagesPane" />
     </panes>
@@ -334,12 +286,19 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\jenkins-sandbox" />
+      <recent name="C:\projects\jenkins-sandbox\scripts" />
+      <recent name="C:\projects\jenkins-sandbox\reports" />
+    </key>
   </component>
   <component name="RunManager" selected="Grails.RedditController.testIndex">
     <configuration default="false" name="RedditController" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
@@ -523,38 +482,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="e7df1c8d-5c59-437c-b8cc-6031122dfa1c" name="Default" comment="" />
       <created>1304120862075</created>
       <updated>1304120862075</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="980" extended-state="0" />
+    <frame x="0" y="0" width="1600" height="1140" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32906976" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6709302" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25032425" sideWeight="0.67105263" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -596,105 +556,67 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/groovy/com/co/Cat.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="382" selection-end="382" vertical-scroll-proportion="-8.869565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="24" selection-start="382" selection-end="382" vertical-scroll-proportion="-8.869565" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/co/RedditController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="168" selection-end="168" vertical-scroll-proportion="-5.2173915">
+        <state line="10" column="20" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar!/java/io/StringReader.class">
+    <entry file="file://$PROJECT_DIR$/reports/default.xslt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="34" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmetrics/default.css">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="111" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="12" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gmetrics/default.xslt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.grails/1.3.6/projects/jenkins-sandbox/plugins/gmetrics-0.3/scripts/Gmetrics.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="13" selection-start="2443" selection-end="2443" vertical-scroll-proportion="12.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/gmetrics.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="11" selection-start="5611" selection-end="5611" vertical-scroll-proportion="2.3863637">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/gmetrics/default.html">
+    <entry file="file://$PROJECT_DIR$/reports/codenarc.xslt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.grails/1.3.6/projects/jenkins-sandbox/plugins/codenarc-0.8.1/scripts/Codenarc.groovy">
+    <entry file="file://$PROJECT_DIR$/scripts/CodeReports.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="41" selection-start="953" selection-end="963" vertical-scroll-proportion="0.0">
+        <state line="13" column="78" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/GmetricsStylize.groovy">
+    <entry file="file://$PROJECT_DIR$/codenarc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="3" selection-start="4567" selection-end="4567" vertical-scroll-proportion="0.0">
+        <state line="85" column="94" selection-start="3623" selection-end="3623" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="131" selection-start="546" selection-end="546" vertical-scroll-proportion="0.27272728">
+        <state line="34" column="42" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.6014568">
           <folding />
         </state>
       </provider>
@@ -706,8 +628,7 @@
         <entry key="jenkins-sandbox">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="5987499" />
-              <option name="pluginDependenciesCrc" value="612423771" />
+              <option name="buildConfigCrc" value="452435494" />
               <option name="properties">
                 <map>
                   <entry key="grails.project.class.dir" value="target/classes" />
@@ -716,11 +637,6 @@
                 </map>
               </option>
             </GrailsSettings>
-          </value>
-        </entry>
-        <entry key="jenkins-sandbox-grailsPlugins">
-          <value>
-            <GrailsSettings />
           </value>
         </entry>
       </map>
