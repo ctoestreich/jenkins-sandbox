@@ -15,8 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7df1c8d-5c59-437c-b8cc-6031122dfa1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy" afterPath="$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iws" afterPath="$PROJECT_DIR$/jenkins-sandbox.iws" />
     </list>
     <ignored path="jenkins-sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +79,7 @@
       <file leaf-file-name="CodeReports.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/CodeReports.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="35" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
+            <state line="13" column="27" selection-start="0" selection-end="1176" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,10 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedditServiceTests.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RedditServiceTests.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="20" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4433657">
+            <state line="22" column="20" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,10 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Config.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="94" selection-start="3623" selection-end="3623" vertical-scroll-proportion="0.0">
+            <state line="88" column="36" selection-start="3663" selection-end="3663" vertical-scroll-proportion="0.55987054">
               <folding />
             </state>
           </provider>
@@ -361,6 +360,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="co" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkins-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkins-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -752,20 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="94" selection-start="3623" selection-end="3623" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/CodeReports.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="35" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
@@ -803,7 +806,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4433657">
+        <state line="22" column="20" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/CodeReports.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="0" selection-end="1176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="36" selection-start="3663" selection-end="3663" vertical-scroll-proportion="0.55987054">
           <folding />
         </state>
       </provider>
