@@ -15,12 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7df1c8d-5c59-437c-b8cc-6031122dfa1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox-grailsPlugins.iml" afterPath="$PROJECT_DIR$/jenkins-sandbox-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iml" afterPath="$PROJECT_DIR$/jenkins-sandbox.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.ipr" afterPath="$PROJECT_DIR$/jenkins-sandbox.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iws" afterPath="$PROJECT_DIR$/jenkins-sandbox.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/CodeReports.groovy" afterPath="$PROJECT_DIR$/scripts/CodeReports.groovy" />
     </list>
     <ignored path="jenkins-sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,7 +79,7 @@
       <file leaf-file-name="CodeReports.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/CodeReports.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="41" selection-start="333" selection-end="333" vertical-scroll-proportion="0.15920916">
+            <state line="32" column="35" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.566077">
               <folding />
             </state>
           </provider>
@@ -431,6 +426,7 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -442,7 +438,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -539,7 +534,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/CodeReports.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="333" selection-end="333" vertical-scroll-proportion="0.15920916">
+        <state line="32" column="35" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.566077">
           <folding />
         </state>
       </provider>
