@@ -14,6 +14,18 @@ class RedditServiceTests extends GrailsUnitTestCase {
     super.tearDown()
   }
 
+  void testCanHasCheeseBurger() {
+    def cats = redditService.breedCats()
+    println cats
+    assertTrue cats.findAll { it.canHasCheeseburger }.size() >= 4
+    assertTrue cats.findAll { !it.canHasCheeseburger }.size() >= 4
+  }
+
+  void testBreedManyCats() {
+    def cats = redditService.breedCats(20)
+    assertTrue cats.size() == 20
+  }
+
   void testBreedCats() {
     def cats = redditService.breedCats()
     assertTrue cats.size() == 10

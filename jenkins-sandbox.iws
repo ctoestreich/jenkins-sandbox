@@ -15,9 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7df1c8d-5c59-437c-b8cc-6031122dfa1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/co/CatTests.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iws" afterPath="$PROJECT_DIR$/jenkins-sandbox.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy" afterPath="$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy" />
     </list>
     <ignored path="jenkins-sandbox.iws" />
@@ -100,7 +98,7 @@
       <file leaf-file-name="Cat.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/groovy/com/co/Cat.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="8" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+            <state line="8" column="6" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +107,7 @@
       <file leaf-file-name="CatTests.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/com/co/CatTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="52" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+            <state line="17" column="3" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +116,7 @@
       <file leaf-file-name="RedditServiceTests.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="4" selection-start="585" selection-end="585" vertical-scroll-proportion="0.8802589">
+            <state line="22" column="20" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4433657">
               <folding />
             </state>
           </provider>
@@ -127,7 +125,7 @@
       <file leaf-file-name="RedditService.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="19" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+            <state line="14" column="19" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,7 +134,7 @@
       <file leaf-file-name="RedditControllerTests.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="-2.9565217">
+            <state line="18" column="51" selection-start="426" selection-end="426" vertical-scroll-proportion="-13.304348">
               <folding />
             </state>
           </provider>
@@ -389,35 +387,7 @@
       <recent name="C:\projects\jenkins-sandbox\reports" />
     </key>
   </component>
-  <component name="RunManager" selected="Grails.RedditService.testCrazyCatLady">
-    <configuration default="false" name="RedditController" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
-      <module name="jenkins-sandbox" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="test-app integration: com.co.RedditController -echoOut" />
-      <setting name="depsClasspath" value="true" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" />
-      <setting name="launchBrowser" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="false" name="RedditController.testIndex" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
-      <module name="jenkins-sandbox" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="test-app integration: com.co.RedditController.testIndex -echoOut" />
-      <setting name="depsClasspath" value="true" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" />
-      <setting name="launchBrowser" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Grails.RedditService.testBreedManyCats">
     <configuration default="false" name="Cat.testCatSpeak" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
       <module name="jenkins-sandbox" />
       <setting name="vmparams" value="" />
@@ -450,6 +420,34 @@
       <module name="jenkins-sandbox" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="test-app integration: com.co.RedditService.testCrazyCatLady -echoOut" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" />
+      <setting name="launchBrowser" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="RedditService.testCanHasCheeseBurger" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
+      <module name="jenkins-sandbox" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="test-app integration: com.co.RedditService.testCanHasCheeseBurger -echoOut" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" />
+      <setting name="launchBrowser" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="RedditService.testBreedManyCats" type="GrailsRunConfigurationType" factoryName="Grails" temporary="true">
+      <module name="jenkins-sandbox" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="test-app integration: com.co.RedditService.testBreedManyCats -echoOut" />
       <setting name="depsClasspath" value="true" />
       <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" />
@@ -618,11 +616,11 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Grails.Grails:jenkins-sandbox" />
-      <item index="1" class="java.lang.String" itemvalue="Grails.RedditController" />
-      <item index="2" class="java.lang.String" itemvalue="Grails.RedditController.testIndex" />
-      <item index="3" class="java.lang.String" itemvalue="Grails.Cat.testCatSpeak" />
-      <item index="4" class="java.lang.String" itemvalue="Grails.RedditService.testCatMill" />
-      <item index="5" class="java.lang.String" itemvalue="Grails.RedditService.testCrazyCatLady" />
+      <item index="1" class="java.lang.String" itemvalue="Grails.Cat.testCatSpeak" />
+      <item index="2" class="java.lang.String" itemvalue="Grails.RedditService.testCatMill" />
+      <item index="3" class="java.lang.String" itemvalue="Grails.RedditService.testCrazyCatLady" />
+      <item index="4" class="java.lang.String" itemvalue="Grails.RedditService.testCanHasCheeseBurger" />
+      <item index="5" class="java.lang.String" itemvalue="Grails.RedditService.testBreedManyCats" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -697,7 +695,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing location for the script and report files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some... important... tests" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -715,6 +713,7 @@
     <MESSAGE value="Adding script gmetrics-stylize for formatting the report." />
     <MESSAGE value="Changing location for the codenarc xml file" />
     <MESSAGE value="Changing location for the script and report files" />
+    <MESSAGE value="Adding some... important... tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -774,37 +773,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/com/co/Cat.groovy">
+    <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="8" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+        <state line="18" column="51" selection-start="426" selection-end="426" vertical-scroll-proportion="-13.304348">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/com/co/CatTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditControllerTests.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="-2.9565217">
+        <state line="17" column="3" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/com/co/RedditService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+        <state line="14" column="19" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/com/co/Cat.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/com/co/RedditServiceTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="4" selection-start="585" selection-end="585" vertical-scroll-proportion="0.8802589">
+        <state line="22" column="20" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4433657">
           <folding />
         </state>
       </provider>
