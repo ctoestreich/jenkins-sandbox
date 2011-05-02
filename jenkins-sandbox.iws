@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7df1c8d-5c59-437c-b8cc-6031122dfa1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iml" afterPath="$PROJECT_DIR$/jenkins-sandbox.iml" />
+      <change type="DELETED" beforePath="C:\projects\jenkins-sandbox\jenkins-sandbox-grailsPlugins.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkins-sandbox.iws" afterPath="$PROJECT_DIR$/jenkins-sandbox.iws" />
     </list>
     <ignored path="jenkins-sandbox.iws" />
@@ -98,7 +98,7 @@
       <file leaf-file-name="BuildConfig.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="21" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.49531737">
+            <state line="36" column="47" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.63683665">
               <folding />
             </state>
           </provider>
@@ -261,6 +261,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkins-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkins-sandbox-grailsPlugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -605,7 +615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.49531737">
+        <state line="36" column="47" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.63683665">
           <folding />
         </state>
       </provider>
@@ -618,6 +628,7 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="452435494" />
+              <option name="pluginDependenciesCrc" value="612423771" />
               <option name="properties">
                 <map>
                   <entry key="grails.project.class.dir" value="target/classes" />
@@ -626,6 +637,11 @@
                 </map>
               </option>
             </GrailsSettings>
+          </value>
+        </entry>
+        <entry key="jenkins-sandbox-grailsPlugins">
+          <value>
+            <GrailsSettings />
           </value>
         </entry>
       </map>
